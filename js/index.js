@@ -8,7 +8,7 @@
     var topics = new Array(6);
     //调用imweb社区最新文章接口
     var latestTopics = function(topic){
-        var link = "http://ivweb.io/topic/" + topic._id;
+        var link = "https://ivweb.io/topic/" + topic._id;
 
         var summary = topic.summary;
         summary = "<p>" + summary.replace(/<(?:.|\n)*?>/gm, '').substr(0, 140) + "</p>";
@@ -90,7 +90,7 @@
             async:false,
             // 将 最新文章 改成 精华文章
             // url:"http://ivweb.io/topics/latestTopics", 
-            url:"http://ivweb.io/topics/latestTopics/sort/top_good",
+            url:"https://ivweb.io/topics/latestTopics/sort/top_good",
             dataType:"jsonp",
             jsonp: "callback",
             jsonpCallback:"callback",
