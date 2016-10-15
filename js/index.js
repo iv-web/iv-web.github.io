@@ -8,7 +8,7 @@
     var topics = new Array(6);
     //调用imweb社区最新文章接口
     var latestTopics = function(topic){
-        var link = "http://imweb.io/topic/" + topic._id;
+        var link = "http://ivweb.io/topic/" + topic._id;
 
         var summary = topic.summary;
         summary = "<p>" + summary.replace(/<(?:.|\n)*?>/gm, '').substr(0, 140) + "</p>";
@@ -74,7 +74,7 @@
                 tabName = "";
         }
 
-        var tabLink = "<a href='http://imweb.io/tab/"+ tab  + "'>" + tabName + "</a>";
+        var tabLink = "<a href='http://ivweb.io/tab/"+ tab  + "'>" + tabName + "</a>";
 
         var postMeta = "<span class='post-meta'>" + timeSpan + " | " + tabLink + "</span>";
         var postTitle = "<h3 class='post-title'><a href='" +link +"'>" + topic.title + "</a></h3>";
@@ -89,8 +89,8 @@
             type:"get",
             async:false,
             // 将 最新文章 改成 精华文章
-            // url:"http://imweb.io/topics/latestTopics", 
-            url:"//imweb.io/topics/latestTopics/sort/top_good",
+            // url:"http://ivweb.io/topics/latestTopics", 
+            url:"//ivweb.io/topics/latestTopics/sort/top_good",
             dataType:"jsonp",
             jsonp: "callback",
             jsonpCallback:"callback",
