@@ -90,7 +90,7 @@
             async:false,
             // 将 最新文章 改成 精华文章
             // url:"http://ivweb.io/topics/latestTopics", 
-            url:"https://ivweb.io/topics/latestTopics/sort/top_good",
+            url:"//ivweb.io/topics/latestTopics/sort/top_good",
             dataType:"jsonp",
             jsonp: "callback",
             jsonpCallback:"callback",
