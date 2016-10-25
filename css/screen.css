@@ -1130,24 +1130,41 @@ h3 {
     display: table-caption;
 }
 
-.pro1 {
-    background-image: url("../img/iconfont.png");
-    background-position: 50%;
+.source-open-list {
+    margin: 0;
+    padding: 0;
 }
 
-.pro2 {
-    background-image: url("../img/qjs.png");
-    background-position: 50%;
+.source-open-list li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    height: 130px;
 }
 
-.pro3 {
-    background-image: url("../img/lego.png");
-    background-position: 50%;
+.source-open-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color: #e8e8e8;
+    text-align: center;
+    text-decoration: none;
 }
 
-.pro4 {
-    background-image: url("../img/badjs.png");
-    background-position: 50%;
+.source-open-list li a h3 {
+    margin: 40px 0 0; 
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #77B7FB;
+}
+
+.source-open-list li a div {
+    font-size: 10px;
+    line-height: 20px;
+    color: #333;
 }
 
 .footer-logo {
