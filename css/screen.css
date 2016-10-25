@@ -1156,7 +1156,7 @@ h3 {
 .source-open-list li a h3 {
     margin: 40px 0 0; 
     font-weight: normal;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 30px;
     color: #77B7FB;
 }
@@ -1164,7 +1164,7 @@ h3 {
 .source-open-list li a div {
     font-size: 10px;
     line-height: 20px;
-    color: #333;
+    color: #000;
 }
 
 .footer-logo {
