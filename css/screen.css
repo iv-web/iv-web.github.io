@@ -1158,7 +1158,7 @@ h3 {
     font-weight: normal;
     font-size: 28px;
     line-height: 30px;
-    color: #77B7FB;
+    color: #086ed5;
 }
 
 .source-open-list li a div {
@@ -1303,10 +1303,11 @@ div.scroll-top-btn:hover {
         float: none;
     }
     .logo-message {
+        float: left;
         color: rgb(43, 120, 216);
         line-height: 40px;
         height: 40px;
-        width: auto;
+        width: 100px;
         display: inline-block;
         font-size: 20px;
         font-weight: bold;
