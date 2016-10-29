@@ -1302,6 +1302,15 @@ div.scroll-top-btn:hover {
         display: none;
         float: none;
     }
+    .logo-message {
+        color: rgb(43, 120, 216);
+        line-height: 40px;
+        height: 40px;
+        width: auto;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
     #header-nav {
         margin: 0;
         border-bottom: 1px dashed #fff;
