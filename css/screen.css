@@ -1107,7 +1107,7 @@ h3 {
 
 .vertical {
     display: block;
-
+    margin-bottom: 20px;
     margin-top: 6.5em;
 }
 
@@ -1355,7 +1355,7 @@ div.scroll-top-btn:hover {
         text-align: center;
     }
     .container .site-head {
-        min-height: 440px;
+        min-height: 450px;
     }
     .site-footer {
         font-size: 1.1rem;
