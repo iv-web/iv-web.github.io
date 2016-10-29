@@ -1007,7 +1007,7 @@ header {
 .team-description {
     margin: auto;
     width: 60%;
-
+    color: rgb( 255, 255, 255 );
     line-height: 2.4rem;
 }
 
