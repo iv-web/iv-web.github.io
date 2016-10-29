@@ -1008,7 +1008,6 @@ header {
     margin-top: 20px;
     margin: auto;
     width: 60%;
-    color: rgb( 255, 255, 255 );
     line-height: 2.4rem;
 }
 
@@ -1355,11 +1354,11 @@ div.scroll-top-btn:hover {
         text-align: center;
     }
     .container .site-head {
-        min-height: 450px;
+        min-height: 420px;
     }
     .site-footer {
         font-size: 1.1rem;
-    }
+    
     .project-section {
         display: block;
 
