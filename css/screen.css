@@ -1005,6 +1005,7 @@ header {
 }
 
 .team-description {
+    margin-top: 20px;
     margin: auto;
     width: 60%;
     color: rgb( 255, 255, 255 );
@@ -1354,7 +1355,7 @@ div.scroll-top-btn:hover {
         text-align: center;
     }
     .container .site-head {
-        min-height: 320px;
+        min-height: 440px;
     }
     .site-footer {
         font-size: 1.1rem;
