@@ -1295,22 +1295,31 @@ div.scroll-top-btn:hover {
         color: #fff;
     }
     .nav .z-active a {
-        color: #3372a2;
+        color: #5fa2e6;
+        letter-spacing: -1px;
+        text-shadow: 0 3px 6px rgba(0,0,0,.1);
+        font-family: ;
     }
+
     .logo {
         display: none;
         float: none;
     }
     .logo-message {
         float: left;
-        color: rgb(43, 120, 216);
-        line-height: 40px;
-        height: 40px;
         width: 100px;
+        height: 40px;
+        line-height: 40px;
         display: inline-block;
-        font-size: 20px;
+        color: rgba(38, 118, 218, 0.92);
+        font-size: 31px;
+        margin-left: 18px;
         font-weight: bold;
+        letter-spacing: -1px;
+        text-shadow: 0 1px 6px rgba(0,0,0,.1);
+        font-family: -webkit-pictograph;
     }
+
     #header-nav {
         margin: 0;
         border-bottom: 1px dashed #fff;
