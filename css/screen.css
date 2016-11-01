@@ -1344,8 +1344,7 @@ div.scroll-top-btn:hover {
     }
     .blog-title {
         margin: 10px;
-
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .blog-description {
         font-size: 2rem;
@@ -1362,7 +1361,7 @@ div.scroll-top-btn:hover {
         text-align: center;
     }
     .container .site-head {
-        min-height: 420px;
+        min-height: 320px;
     }
     .site-footer {
         font-size: 1.1rem;
