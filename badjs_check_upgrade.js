@@ -1,1 +1,1 @@
-try {check_upgrade(0, "2.0") } catch(e) {}
+try {check_upgrade(1, "2.0") } catch(e) {}
